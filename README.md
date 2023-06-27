@@ -3,6 +3,10 @@
 The validatorjs library makes data validation in JavaScript very easy in both the browser and Node.js.
 This library was inspired by the [Laravel framework's Validator](http://laravel.com/docs/validation).
 
+## This fork!
+
+Removes all languages except en for the small bundle.
+
 ## Why use validatorjs?
 
 * Works in both the browser and Node.
