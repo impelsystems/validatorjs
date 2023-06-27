@@ -1,5 +1,5 @@
 {
-  "name": "validatorjs",
+  "name": "@impelsys/validatorjs",
   "description": "Validation library inspired by Laravel's Validator",
   "version": "3.22.2",
   "author": "David <david@thejsguy.com>",
