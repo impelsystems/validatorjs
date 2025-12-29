@@ -74,4 +74,4 @@ Errors.prototype = {
   }
 };
 
-module.exports = Errors;
+export default Errors;

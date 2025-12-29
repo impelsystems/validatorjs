@@ -1,8 +1,6 @@
-var Messages = require('./messages');
+import Messages from './messages.mjs';
 
-require('./lang/en');
-
-var require_method = require;
+import rawMessages from './lang/en.mjs';
 
 var container = {
 
@@ -45,7 +43,6 @@ var container = {
   _load: function(lang) {
     if (!this.messages[lang]) {
       try {
-        var rawMessages = require_method('./lang/' + lang);
         this._set(lang, rawMessages);
       } catch (e) {}
     }
@@ -75,4 +72,4 @@ var container = {
 
 };
 
-module.exports = container;
+export default container;

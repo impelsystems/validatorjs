@@ -1,8 +1,8 @@
-var Rules = require('./rules');
-var Lang = require('./lang');
-var Errors = require('./errors');
-var Attributes = require('./attributes');
-var AsyncResolvers = require('./async');
+import Rules from './rules.mjs';
+import Lang from './lang.mjs';
+import Errors from './errors.mjs';
+import Attributes from './attributes.mjs';
+import AsyncResolvers from './async.mjs';
 
 var Validator = function (input, rules, customMessages) {
   var lang = Validator.getDefaultLang();
@@ -659,4 +659,5 @@ Validator.registerMissedRuleValidator = function(fn, message) {
   Rules.registerMissedRuleValidator(fn, message);
 };
 
-module.exports = Validator;
+
+export default Validator;

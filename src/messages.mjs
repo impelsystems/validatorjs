@@ -1,4 +1,4 @@
-var Attributes = require('./attributes');
+import Attributes from './attributes.mjs';
 
 var Messages = function(lang, messages) {
   this.lang = lang;
@@ -149,4 +149,4 @@ Messages.prototype = {
 
 };
 
-module.exports = Messages;
+export default Messages

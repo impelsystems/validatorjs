@@ -193,7 +193,7 @@ function formatter(attribute) {
   return attribute.replace(/[_\[]/g, ' ').replace(/]/g, '');
 }
 
-module.exports = {
+export default {
   replacements: replacements,
   formatter: formatter
 };

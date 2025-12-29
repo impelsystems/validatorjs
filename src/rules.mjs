@@ -861,4 +861,4 @@ var manager = {
   }
 };
 
-module.exports = manager;
+export default manager
