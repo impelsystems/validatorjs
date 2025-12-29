@@ -496,7 +496,7 @@ var rules = {
     // regex to check that each octet is valid
     var er = /^[0-9]+$/;
     // ipv4 octets are delimited by dot
-    octets = val.split('.');
+    var octets = val.split('.');
     // check 1: ipv4 address should contains 4 octets
     if (octets.length != 4)
       return false;
@@ -524,10 +524,10 @@ var rules = {
     // regex to check that each hextet is valid
     var er = /^[0-9a-f]+$/;
     // ipv6 hextets are delimited by colon
-    hextets = val.split(':');
+    var hextets = val.split(':');
 
     // check 1: ipv6 should contain only one consecutive colons
-    colons = val.match(/::/);
+    var colons = val.match(/::/);
     if (colons != null && val.match(/::/g).length > 1)
       return false;
 
