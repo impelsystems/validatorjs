@@ -88,7 +88,7 @@ module.exports = function(grunt) {
       enLang: {
         src: [],
         options: {
-          require: ['./src/lang/en:./lang/en']
+          import: ['./src/lang/en:./lang/en']
         },
         dest: 'dist/lang/en.js'
       },

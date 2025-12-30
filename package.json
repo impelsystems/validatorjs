@@ -1,7 +1,7 @@
 {
   "name": "@impelsys/validatorjs",
   "description": "Validation library inspired by Laravel's Validator",
-  "version": "3.22.4",
+  "version": "3.23.0",
   "author": "David <david@thejsguy.com>",
   "contributors": [
     {
@@ -18,7 +18,7 @@
     }
   ],
   "license": "MIT",
-  "main": "./src/validator.js",
+  "main": "./src/validator.mjs",
   "repository": {
     "type": "git",
     "url": "https://github.com/mikeerickson/validatorjs"

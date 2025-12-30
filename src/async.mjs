@@ -78,4 +78,4 @@ AsyncResolvers.prototype = {
 
 };
 
-module.exports = AsyncResolvers;
+export default AsyncResolvers;
